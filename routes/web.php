@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('aaa', function () {
+    return view('welcome');
+});
+
 Route::namespace('front')->group( function(){
 
     Route::get('users', function ($id) {
